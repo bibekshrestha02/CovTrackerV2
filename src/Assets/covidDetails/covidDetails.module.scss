@@ -1,0 +1,107 @@
+@import "./../../style/color.module";
+%icons {
+  color: white;
+  font-size: 15px;
+  border-radius: 55%;
+  text-align: center;
+  float: left;
+  padding: 5px;
+  width: 15%;
+  @media screen and(max-width:"400px") {
+    font-size: 15px;
+    width: 15%;
+    padding: 2.5px;
+  }
+}
+.CovidDetails {
+  margin: auto;
+}
+.icon {
+  background: white;
+  padding: 20px 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  @media screen and(max-width:"400px") {
+    padding: 10px 10px;
+    margin-bottom: 10px;
+  }
+  .icon1 {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(
+      166deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(9, 9, 121, 1) 0%,
+      rgba(18, 165, 195, 1) 99%
+    );
+    @extend %icons;
+  }
+  .icon1 {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(
+      166deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(9, 9, 121, 1) 0%,
+      rgba(18, 165, 195, 1) 99%
+    );
+    @extend %icons;
+  }
+  .icon2 {
+    background: rgb(238, 17, 17);
+    background: linear-gradient(
+      34deg,
+      rgba(238, 17, 17, 1) 48%,
+      rgba(238, 185, 185, 1) 100%,
+      rgba(232, 22, 22, 1) 100%
+    );
+    @extend %icons;
+  }
+  .icon3 {
+    background: rgb(209, 220, 208);
+    background: linear-gradient(
+      210deg,
+      rgba(209, 220, 208, 1) 0%,
+      rgba(108, 206, 99, 1) 17%,
+      rgba(55, 232, 22, 1) 100%,
+      rgba(238, 185, 185, 1) 100%
+    );
+    @extend %icons;
+  }
+  .icon4 {
+    background-color: #ffe53b;
+    background-image: linear-gradient(147deg, #ffe53b 0%, #ff2525 74%);
+
+    @extend %icons;
+  }
+  .icon5 {
+    background-image: linear-gradient(135deg, #3b2667 10%, #bc78ec 100%);
+
+    @extend %icons;
+  }
+  .icon6 {
+    background-image: linear-gradient(135deg, #f761a1 10%, #8c1bab 100%);
+    @extend %icons;
+  }
+  .text {
+    float: right;
+    width: 70%;
+    margin-left: 15px;
+    h5 {
+      color: $textII;
+      @media screen and(max-width:"400px") {
+        font-size: 15px;
+      }
+    }
+    span {
+      color: $textI;
+      font-weight: bold;
+      font-size: 16px;
+      @media screen and(max-width:"400px") {
+        font-size: 14px;
+      }
+    }
+  }
+}

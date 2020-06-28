@@ -1,0 +1,28 @@
+.nav {
+  background-color: white;
+  position: fixed;
+  top: 0;
+  height: auto;
+  width: 100%;
+  z-index: 1;
+  border-bottom: 1px solid #777e8b;
+
+  .brand {
+    cursor: pointer;
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-family: "Roboto", sans-serif;
+    .logo {
+      width: 40px;
+      @media screen and (max-width: "400px") {
+        font-size: 30px;
+      }
+    }
+    @media screen and (max-width: "400px") {
+      font-size: 20px;
+    }
+  }
+}

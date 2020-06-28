@@ -1,0 +1,10 @@
+@import "./../../style/color.module";
+.faq {
+  background-color: white;
+  height: auto;
+  .FaqQuestion {
+    background-color: white;
+    width: 90%;
+    margin: auto;
+  }
+}

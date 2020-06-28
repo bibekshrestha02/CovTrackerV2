@@ -1,0 +1,12 @@
+body {
+  background-color: #f7f8fc;
+}
+.homepage {
+  width: 85%;
+  margin: auto;
+}
+@media screen and (max-width: 400px) {
+  .homepage {
+    width: 100%;
+  }
+}
